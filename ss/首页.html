@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            width: 98vw;
+            height: 99vh;
+            border: 1px solid #000;
+        }
+
+        .bottom {
+            width: 100%;
+            /* height: 13vh; */
+            padding-top: 5px;
+            padding-left: 5%;
+            position: fixed;
+            bottom: 0;
+            display: flex;
+            /* background-color: rgba(255, 255, 255, 1); */
+        }
+
+        .bottom div {
+            flex: 1;
+            /* height: 10vh; */
+        }
+
+        .bottom div img {
+            width: 50%;
+            /* height: 7vh; */
+            display: block;
+            padding-top: 5%;
+        }
+
+        .bottom div span {
+            display: inline-block;
+            padding-bottom: 10px;
+            padding-left: 6%;
+            font-size: 17px;
+
+        }
+
+        .img {
+            width: 100%;
+        }
+
+        .warp1 {
+            width: 100%;
+            height: 7vh;
+
+
+
+        }
+
+        .img>div:nth-child(1) {
+            display: block;
+        }
+
+        .warp2,
+        .warp4,
+        .warp3 {
+            width: 100%;
+            height: 100%;
+            display: none;
+        }
+
+        .img1 .img2 {
+            width: 10%;
+            height: 26px;
+            vertical-align: middle;
+        }
+
+        .img {
+            padding-top: 2%;
+
+        }
+
+        .img1 .img3 {
+            width: 40%;
+            height: 26px;
+            border-radius: 20px;
+        }
+
+        .lunbo {
+            width: 100%;
+
+
+        }
+
+        .lunbo1 {
+            width: 100%;
+            padding-bottom: 10px;
+        }
+
+        .lunbo2 {
+            color: rgba(0, 0, 0, 1);
+            font-size: 14px;
+            text-align: left;
+            font-weight: bold;
+            padding-left: 10%;
+
+        }
+
+        .shujia {
+            color: rgba(0, 0, 0, 1);
+            font-size: 18px;
+            line-height: 150%;
+            text-align: left;
+            font-weight: bold;
+            padding-left: 9.5%;
+            padding-top: 20px;
+        }
+
+        .lunbo3 img {
+            width: 49%;
+        }
+
+        .shujia1 {
+            display: flex;
+        }
+        .xigu{
+          padding-left: 2%;
+            width: 50%;
+        }
+        .xigu1{
+            width: 100%;
+            display: flex;
+        }
+        .shujia2{
+            margin-right: 2%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="img">
+            <div class="warp1">
+                <div class="img1">
+                    <img class="img2" src="./images/首页/小/图标 5.svg" alt="">
+                    <input class="img3" type="text" placeholder="请输入片名、主演或导演">
+                </div>
+                <div class="lunbo">
+                    <img class="lunbo1" src="./images/首页/小/图片2.jpg" alt="">
+                    <span class="lunbo2">【猎毒人】吕云鹏计划通楚天南中风下线？</span>
+                </div>
+                <div class="lunbo3">
+                    <div class="shujia">
+                        暑假刷片看这里！
+                    </div>
+                    <div class="shujia1">
+                        <img class="shujia2" src="./images/首页/图片3.jpeg" alt="">
+                       
+                        <img src="./images/首页/图片3(1).jpeg" alt="">
+                       
+                        
+                    </div>
+                    <div class="xigu1">
+                        <div class="xigu">小戏骨MV·外卖小哥</div>
+                        <div class="xigu">惹上冷殿下·8.8首播</div>
+                    </div>
+                   
+                    <!-- <div  class="xigu"> -->
+                        <!-- <div class="xigu">萌娃致敬烈日下劳动者</div> -->
+                        <!-- <div class="xigu"> 迷妹撩爱豆 饭圈高糖恋</div> -->
+                    <!-- </div> -->
+                </div>
+            </div>
+            <div class="warp2">asdadadassda</div>
+            <div class="warp3">22</div>
+            <div class="warp4">33</div>
+        </div>
+
+        <div class="bottom">
+            <div class="botteml">
+                <div>
+                    <img src="./images/shouye_a.png" alt="">
+                </div>
+
+                <span>首页</span>
+            </div>
+
+
+            <div class="botteml">
+                <div>
+                    <img src="./images/redu.png" alt="">
+                </div>
+                <span>短视频</span>
+            </div>
+
+
+            <div class="botteml">
+                <div>
+                    <img src="./images/pindao.png" alt="">
+                </div>
+                <span>频道</span>
+            </div>
+
+
+            <div class="botteml">
+                <div>
+                    <img src="./images/wode.png" alt="">
+                </div>
+                <span>我的</span>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+<script src="./js/jquery-3.4.1.min.js"></script>
+<script src="./js/shou.js"></script>
+<script src="./js/tu.js"></script>
+
+</html>
